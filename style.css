@@ -1,0 +1,113 @@
+body {
+  margin: 3rem;
+  margin-top: 0;
+}
+
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  background-color: black;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  color: rgb(244, 17, 17);
+  border-bottom: 2px solid white;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 70px;
+}
+
+#promotional-effort {
+  background-image: url(Lucky-Shrub-logos/city-courtyard-garden-with-artificial-grass-my-bespoke-room-img_28218f1a0f807ade_14-6537-1-7dd72eb.jpg);
+  background-position: center;
+  background-origin: border-box;
+}
+
+#promotional-effort article h1 {
+  color: white;
+  font-size: 50px;
+}
+
+#promotional-effort article p {
+  color: white;
+}
+
+section {
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+}
+
+article {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+}
+
+footer div {
+  flex: 1;
+  align-self: center;
+  align-items: flex-end;
+}
+
+.planets {
+  background-color: rgb(232, 255, 247);
+  margin: 20px;
+}
+
+img {
+  margin: 10px auto;
+  object-fit: cover;
+  width: 400px;
+  height: 200;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: right;
+}
+
+#header-logo {
+  transform: rotateY(45deg);
+  animation: rotateAnimation 5s linear alternate;
+  width: 150px;
+  height: 300px;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotateY(45deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+footer div > img {
+  width: 50px;
+  height: 100px;
+}
